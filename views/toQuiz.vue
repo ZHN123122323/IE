@@ -19,10 +19,10 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_1" label="1"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_1" label="1"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_1" label="2"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_1" label="2"><span style="font-size:15px;">No</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
@@ -46,18 +46,18 @@
                                     <p style="text-align:left; font-size:20px;">Q2: Which one is not the sign for choking?</p>
                                     <el-button @click.stop="setCard_2();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_2" label="3"><span style="font-size:18px;">A. Clutching at the throat</span></el-radio>
+                                        <el-radio v-model="radio_2" label="3"><span style="font-size:15px;">A. Clutching at the throat</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_2" label="4"><span style="font-size:18px;">B. Screaming</span></el-radio>
+                                        <el-radio v-model="radio_2" label="4"><span style="font-size:15px;">B. Screaming</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_2" label="5"><span style="font-size:18px;">C. Inability to speak, breathe or swallow</span></el-radio>
+                                        <el-radio v-model="radio_2" label="5"><span style="font-size:15px;">C. Inability to speak, breathe or swallow</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_2" label="6"><span style="font-size:18px;">D. Wheezing or other unususal breathing sounds</span></el-radio>
+                                        <el-radio v-model="radio_2" label="6"><span style="font-size:15px;">D. Wheezing or other unususal breathing sounds</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
@@ -81,12 +81,12 @@
                                     <p style="text-align:left; font-size:20px;">Q3: Coughing is a common sign for choking.</p>
                                     <el-button @click.stop="setCard_3();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_3" label="7"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_3" label="7"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_3" label="8"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_3" label="8"><span style="font-size:15px;">No</span></el-radio>
                                     </div>   
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
@@ -110,12 +110,12 @@
                                     <p style="text-align:left; font-size:20px;">Q4: A symptom for choking is to______</p>
                                     <el-button @click.stop="setCard_4();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_4" label="9"><span style="font-size:18px;">A. Yell "I am choking, help!"</span></el-radio>
+                                        <el-radio v-model="radio_4" label="9"><span style="font-size:15px;">A. Yell "I am choking, help!"</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_4" label="10"><span style="font-size:18px;">B. Cannot talk</span></el-radio>
+                                        <el-radio v-model="radio_4" label="10"><span style="font-size:15px;">B. Cannot talk</span></el-radio>
                                     </div>   
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
@@ -164,18 +164,18 @@
                                     <p style="text-align:left; font-size:20px;">Q1: Which are not common causes of choking?</p>
                                     <el-button @click.stop="setCard_5();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_5" label="11"><span style="font-size:18px;">A. Eating or drinking too quickly</span></el-radio>
+                                        <el-radio v-model="radio_5" label="11"><span style="font-size:15px;">A. Eating or drinking too quickly</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_5" label="12"><span style="font-size:18px;">B. Swallowing food before it has been sufficiently chewed</span></el-radio>
+                                        <el-radio v-model="radio_5" label="12"><span style="font-size:15px;">B. Swallowing food before it has been sufficiently chewed</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_5" label="13"><span style="font-size:18px;">C. Swallowing small bones or objects</span></el-radio>
+                                        <el-radio v-model="radio_5" label="13"><span style="font-size:15px;">C. Swallowing small bones or objects</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_5" label="14"><span style="font-size:18px;">D. Gulp water</span></el-radio>
+                                        <el-radio v-model="radio_5" label="14"><span style="font-size:15px;">D. Gulp water</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
@@ -201,10 +201,10 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_6" label="15"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_6" label="15"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_6" label="16"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_6" label="16"><span style="font-size:15px;">No</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
@@ -228,15 +228,15 @@
                                     <p style="text-align:left; font-size:20px;">Q3: Which are not possible objects causing choking?</p>
                                     <el-button @click.stop="setCard_7();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_7" label="17"><span style="font-size:18px;">A. Cooked Rice</span></el-radio>
+                                        <el-radio v-model="radio_7" label="17"><span style="font-size:15px;">A. Cooked Rice</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_7" label="18"><span style="font-size:18px;">B. Small Toys</span></el-radio>
+                                        <el-radio v-model="radio_7" label="18"><span style="font-size:15px;">B. Small Toys</span></el-radio>
                                     </div> 
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_7" label="19"><span style="font-size:18px;">C. Milk</span></el-radio>
+                                        <el-radio v-model="radio_7" label="19"><span style="font-size:15px;">C. Milk</span></el-radio>
                                     </div>   
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
@@ -260,18 +260,18 @@
                                     <p style="text-align:left; font-size:20px;">Q4: Which of the following can cause choking?</p>
                                     <el-button @click.stop="setCard_8();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_8" label="20"><span style="font-size:18px;">A. Eating large pieces of food chewing incompletely</span></el-radio>
+                                        <el-radio v-model="radio_8" label="20"><span style="font-size:15px;">A. Eating large pieces of food chewing incompletely</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_8" label="21"><span style="font-size:18px;">B. Sleeping</span></el-radio>
+                                        <el-radio v-model="radio_8" label="21"><span style="font-size:15px;">B. Sleeping</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_8" label="22"><span style="font-size:18px;">C. Working in front of the laptop</span></el-radio>
+                                        <el-radio v-model="radio_8" label="22"><span style="font-size:15px;">C. Working in front of the laptop</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_8" label="23"><span style="font-size:18px;">D. Riding the car</span></el-radio>
+                                        <el-radio v-model="radio_8" label="23"><span style="font-size:15px;">D. Riding the car</span></el-radio>
                                     </div>   
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
@@ -323,16 +323,16 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_9" label="24"><span style="font-size:18px;">A. 1</span></el-radio>
+                                        <el-radio v-model="radio_9" label="24"><span style="font-size:15px;">A. 1</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_9" label="25"><span style="font-size:18px;">B. 3</span></el-radio>
+                                        <el-radio v-model="radio_9" label="25"><span style="font-size:15px;">B. 3</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_9" label="26"><span style="font-size:18px;">C. 5</span></el-radio>
+                                        <el-radio v-model="radio_9" label="26"><span style="font-size:15px;">C. 5</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_9" label="27"><span style="font-size:18px;">D. 7</span></el-radio>
+                                        <el-radio v-model="radio_9" label="27"><span style="font-size:15px;">D. 7</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
@@ -356,15 +356,15 @@
                                     <p style="text-align:left; font-size:20px;">Q2: Who do you call if the kid is choking?</p>
                                     <el-button @click.stop="setCard_10();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_10" label="28"><span style="font-size:18px;">A. 000</span></el-radio>
+                                        <el-radio v-model="radio_10" label="28"><span style="font-size:15px;">A. 000</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_10" label="29"><span style="font-size:18px;">B. 106</span></el-radio>
+                                        <el-radio v-model="radio_10" label="29"><span style="font-size:15px;">B. 106</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_10" label="30"><span style="font-size:18px;">C. 131444</span></el-radio>
+                                        <el-radio v-model="radio_10" label="30"><span style="font-size:15px;">C. 131444</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
@@ -390,16 +390,16 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_11" label="31"><span style="font-size:18px;">A. Ask them to cough to remove the object</span></el-radio>
+                                        <el-radio v-model="radio_11" label="31"><span style="font-size:15px;">A. Ask them to cough to remove the object</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_11" label="32"><span style="font-size:18px;">B. Encourage them to relax and breathe deeply</span></el-radio>
+                                        <el-radio v-model="radio_11" label="32"><span style="font-size:15px;">B. Encourage them to relax and breathe deeply</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_11" label="33"><span style="font-size:18px;">C. If this does not remove the blockage call 000</span></el-radio>
+                                        <el-radio v-model="radio_11" label="33"><span style="font-size:15px;">C. If this does not remove the blockage call 000</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_11" label="34"><span style="font-size:18px;">D. Pat the patient’s back with force</span></el-radio>
+                                        <el-radio v-model="radio_11" label="34"><span style="font-size:15px;">D. Pat the patient’s back with force</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
@@ -425,10 +425,10 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_12" label="35"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_12" label="35"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_12" label="36"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_12" label="36"><span style="font-size:15px;">No</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
@@ -479,10 +479,10 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_13" label="37"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_13" label="37"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_13" label="38"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_13" label="38"><span style="font-size:15px;">No</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
@@ -506,18 +506,18 @@
                                     <p style="text-align:left; font-size:20px;">Q2: Which is not right?</p>
                                     <el-button @click.stop="setCard_14();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_14" label="39"><span style="font-size:18px;">A. Cut foods such as hotdogs, sausages, and grapes into small pieces before serving them to young children.</span></el-radio>
+                                        <el-radio v-model="radio_14" label="39"><span style="font-size:15px;">A. Cut foods such as sausages into small pieces.</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_14" label="40"><span style="font-size:18px;">B. Buy your child any kind of toy they like.</span></el-radio>
+                                        <el-radio v-model="radio_14" label="40"><span style="font-size:15px;">B. Buy your child any kind of toy they like.</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_14" label="41"><span style="font-size:18px;">C. Do not allow children to play sports with food or gum in their mouths.</span></el-radio>
+                                        <el-radio v-model="radio_14" label="41"><span style="font-size:15px;">C. Do not allow children to play sports with food or gum in their mouths.</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_14" label="42"><span style="font-size:18px;">D. Instruct children to chew their food thoroughly before swallowing.</span></el-radio>
+                                        <el-radio v-model="radio_14" label="42"><span style="font-size:15px;">D. Instruct children to chew their food thoroughly before swallowing.</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
@@ -541,18 +541,18 @@
                                     <p style="text-align:left; font-size:20px;">Q3: What’s the correct eating posture?</p>
                                     <el-button @click.stop="setCard_15();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
                                 </div>
-                                <div style="height: 150px;">
+                                <div style="height: 150px; margin-top:20px;">
                                     <div>
-                                        <el-radio v-model="radio_15" label="43"><span style="font-size:18px;">A. Sitting up</span></el-radio>
+                                        <el-radio v-model="radio_15" label="43"><span style="font-size:15px;">A. Sitting up</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_15" label="44"><span style="font-size:18px;">B. Lying down</span></el-radio>
+                                        <el-radio v-model="radio_15" label="44"><span style="font-size:15px;">B. Lying down</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_15" label="45"><span style="font-size:18px;">C. Crawling</span></el-radio>
+                                        <el-radio v-model="radio_15" label="45"><span style="font-size:15px;">C. Crawling</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_15" label="46"><span style="font-size:18px;">D. Walking</span></el-radio>
+                                        <el-radio v-model="radio_15" label="46"><span style="font-size:15px;">D. Walking</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
@@ -578,10 +578,10 @@
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
-                                        <el-radio v-model="radio_16" label="47"><span style="font-size:18px;">Yes</span></el-radio>
+                                        <el-radio v-model="radio_16" label="47"><span style="font-size:15px;">Yes</span></el-radio>
                                     </div>
                                     <div style="margin-top: 20px">
-                                        <el-radio v-model="radio_16" label="48"><span style="font-size:18px;">No</span></el-radio>
+                                        <el-radio v-model="radio_16" label="48"><span style="font-size:15px;">No</span></el-radio>
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
