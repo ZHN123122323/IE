@@ -26,7 +26,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type1" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -61,7 +61,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type1" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -90,7 +90,7 @@
                                     </div>   
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type1" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -119,7 +119,7 @@
                                     </div>   
                                 </div> 
                                 <div v-show="showBox1" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type1" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -179,7 +179,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type2" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -208,7 +208,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type2" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -240,7 +240,7 @@
                                     </div>   
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type2" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -275,7 +275,7 @@
                                     </div>   
                                 </div> 
                                 <div v-show="showBox2" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type2" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -336,7 +336,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type3" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -368,7 +368,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type3" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -403,7 +403,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type3" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -432,7 +432,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox3" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type3" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -486,7 +486,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type4" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -521,7 +521,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type4" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -556,7 +556,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type4" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
@@ -585,7 +585,7 @@
                                     </div>
                                 </div> 
                                 <div v-show="showBox4" style="height:130px; background-color:#F7F7F8;">
-                                    <div style="float:left; margin-left:200px; margin-top:25px;">
+                                    <div style="float:left; margin-left:80px; margin-top:25px;">
                                         <img v-if="lay_type4" src="../views/pictures/correct.png" alt="correct" style="height:80px; width:80px;">
                                         <img v-else src="../views/pictures/incorrect.png" alt="incorrect" style="height:80px; width:80px;">
                                     </div>
