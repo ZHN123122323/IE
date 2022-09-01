@@ -20,7 +20,7 @@
         </div></el-col>
         <el-col :span="12"><div class="grid-content bg-purple">
             <br>
-            <img style="background-size:cover; height: 600px; width:1000px;" src="../views/pictures/homepage.jpg" alt="homepage">
+            <img style="background-size:cover; height: 600px; width:850px;" src="../views/pictures/homepage.jpg" alt="homepage">
         </div></el-col>
         <el-col :span="2"><div class="grid-content bg-purple"><br></div></el-col>
     </el-row>
