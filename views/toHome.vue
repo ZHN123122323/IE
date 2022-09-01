@@ -12,7 +12,6 @@
             </p>
             <p>
                 <br style="font-weight: 400;">
-                <br style="font-weight: 400;">
             </p>
             
             <el-link style="color:#FF7A3D; font-size:1.5rem;">Learn more<i class="el-icon-right el-icon--right"></i> </el-link>
@@ -90,14 +89,6 @@
             <br style="font-weight: 400;">
             <br style="font-weight: 400;">
             <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
-            <br style="font-weight: 400;">
             <hr align=left width=150 size=6 color=black>
             <br>
             <h2 style="margin:0; text-align:left; line-height:1.2; font-size:3rem; font-family:'Vollkorn', serif; font-weight:900; vertical-align:baseline;">Quiz</h2>
@@ -105,8 +96,18 @@
                 Intro to .... 
             </p>
             <br style="font-weight: 400;">
+            <div style="border:5px solid #FBC37E; height:220px; border-radius:20px;">
+            <p style="font-size:30px; margin-bottom:5px;">Are you confident about dealing with a Child's Choking Accident?</p>
+            <el-rate
+                v-model="value"
+                :texts = "texts"
+                show-text>
+            </el-rate>
+
+            </div>
+            <br><br><br><br>
             <router-link to="/toQuiz">
-                <el-button type="primary" icon="el-icon-search" style="width:190px; height:90px; font-size: 35px;">Quiz</el-button>
+                <el-button type="warning" icon="el-icon-search" style="width:190px; height:90px; font-size: 35px;">Quiz</el-button>
             </router-link>
         </div></el-col>
 
@@ -143,7 +144,10 @@
 export default {
     name: 'toHome',
     data () {
-        return {}
+        return {
+            value: null,
+            texts: ["Not Confident","Slightly Confident","Somewhat Confident","Fairly Confident","Completely Confident"]
+        }
     }
 }
 </script>
@@ -179,5 +183,14 @@ export default {
   .homepage {
     background-image: url(../views/pictures/background1.png); 
     background-size:cover;
+  }
+
+   .el-rate__icon{
+    font-size: 70px;
+  }
+
+  .el-rate__text {
+    font-weight: bold;
+    font-family: "Baloo 2";
   }
 </style>

@@ -15,7 +15,7 @@
                             <div @click="showBox1=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q1: A change in colour(eg. blue lips or red face) is a sign for choking.</p>
-                                    <el-button @click.stop="setCard_1();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_1();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -44,7 +44,7 @@
                             <div @click="showBox1=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q2: Which one is not the sign for choking?</p>
-                                    <el-button @click.stop="setCard_2();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_2();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -79,7 +79,7 @@
                             <div @click="showBox1=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q3: Coughing is a common sign for choking.</p>
-                                    <el-button @click.stop="setCard_3();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_3();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -108,7 +108,7 @@
                             <div @click="showBox1=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q4: A symptom for choking is to______</p>
-                                    <el-button @click.stop="setCard_4();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_4();showBox1=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -162,7 +162,7 @@
                             <div @click="showBox2=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q1: Which are not common causes of choking?</p>
-                                    <el-button @click.stop="setCard_5();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_5();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -197,7 +197,7 @@
                             <div @click="showBox2=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q2: Choking means that the airway in a person's throat is blocked.</p>
-                                    <el-button @click.stop="setCard_6();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_6();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -226,7 +226,7 @@
                             <div @click="showBox2=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q3: Which are not possible objects causing choking?</p>
-                                    <el-button @click.stop="setCard_7();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_7();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -258,7 +258,7 @@
                             <div @click="showBox2=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q4: Which of the following can cause choking?</p>
-                                    <el-button @click.stop="setCard_8();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_8();showBox2=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -319,7 +319,7 @@
                             <div @click="showBox3=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q1: How many back blows do you give a conscious choking victim?</p>
-                                    <el-button @click.stop="setCard_9();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_9();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -354,7 +354,7 @@
                             <div @click="showBox3=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q2: Who do you call if the kid is choking?</p>
-                                    <el-button @click.stop="setCard_10();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_10();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -386,7 +386,7 @@
                             <div @click="showBox3=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q3: If the patient is over one year of age the following management is not recommended:</p>
-                                    <el-button @click.stop="setCard_11();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_11();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -421,7 +421,7 @@
                             <div @click="showBox3=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q4: Is it a good idea to give a choking child a glass of water or something to eat?</p>
-                                    <el-button @click.stop="setCard_12();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_12();showBox3=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -475,7 +475,7 @@
                             <div @click="showBox4=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q1: Don't give young children hard foods or small objects.</p>
-                                    <el-button @click.stop="setCard_13();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_13();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -504,7 +504,7 @@
                             <div @click="showBox4=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q2: Which is not right?</p>
-                                    <el-button @click.stop="setCard_14();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_14();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -539,7 +539,7 @@
                             <div @click="showBox4=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q3: What’s the correct eating posture?</p>
-                                    <el-button @click.stop="setCard_15();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_15();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px; margin-top:20px;">
                                     <div>
@@ -574,7 +574,7 @@
                             <div @click="showBox4=false">
                                 <div slot="header" class="clearfix">
                                     <p style="text-align:left; font-size:20px;">Q4: Items that can pose a choking hazard to children and should be placed out of reach of little ones.</p>
-                                    <el-button @click.stop="setCard_16();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="primary" round>Submit</el-button>
+                                    <el-button @click.stop="setCard_16();showBox4=true" style="float: right; padding: 3px 0; width:100px; height:50px; font-size: 15px;" type="warning" round>Submit</el-button>
                                 </div>
                                 <div style="height: 150px;">
                                     <div>
@@ -616,11 +616,11 @@
         <br style="font-weight: 400;">
 
         <!--Show test report-->
-        <div style="background-color: #E0F8E0;">
+        <div style="background-color: #F8C49A;">
             <p style="margin-bottom:10px; font-size:25px; font-weight:bold;">Please click here to check your report</p>
             <i class="el-icon-arrow-down"></i>
             <br><br>
-            <el-button type="primary" @click="dialog_content = true; final_grade(); final_logo()"><scan style="font-size:40px;">Report</scan></el-button>
+            <el-button type="warning" @click="dialog_content = true; final_grade(); final_logo()" style="height:60px;"><scan style="font-size:40px;">Report</scan></el-button>
             <el-dialog :visible.sync="dialog_content">
                 <div>
                     <img v-if="lay_type5" src="../views/pictures/good.png" alt="correct" style="height:120px; width:120px;">

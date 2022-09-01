@@ -7,6 +7,11 @@
       <el-menu-item v-for="(item,i) in navList" :key="i" :index="item.name">
         <span style="font-size:25px; font-family:'Vollkorn', serif;">{{ item.navItem }}</span>
       </el-menu-item>
+      <el-menu-item style="float:right;">
+            <router-link to="/toQuiz">
+                <el-button type="warning" style="margin-bottom:3px; width:100px; height:50px; font-size: 25px;">Quiz</el-button>
+            </router-link>
+      </el-menu-item>
     </el-menu>
     </div>
     <br><br><br><br><br>
@@ -57,5 +62,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.el-button {
+  line-height:0px;
 }
 </style>
