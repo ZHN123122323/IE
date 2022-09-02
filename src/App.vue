@@ -41,7 +41,6 @@ export default {
       return {
         navList:[
           {name:'/',navItem:'Home'},
-          {name:'/toFamily',navItem:'Family'},
         ]
       };
   },

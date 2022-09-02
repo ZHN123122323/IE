@@ -14,7 +14,6 @@
                 <br style="font-weight: 400;">
             </p>
             
-            <el-link style="color:#FF7A3D; font-size:1.5rem;">Learn more<i class="el-icon-right el-icon--right"></i> </el-link>
             
         </div></el-col>
         <el-col :span="12"><div class="grid-content bg-purple">
